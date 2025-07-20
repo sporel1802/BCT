@@ -1,0 +1,40 @@
+<!--     
+    <section class="home" id="home">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.K-zkeea4pftNpISFbFejLQHaJ7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+
+        <div class="text">                
+            NAME:{{Personal_info.name}}
+            <br>
+            Email:{{Personal_info.email}}
+             <br>
+            Phone:{{Personal_info.phone}}
+            <br>
+             Age:{{Personal_info.age}}
+            <br>
+            College:{{Personal_info.collage}}
+            <br>
+            Dept:{{Personal_info.dept}}
+            <br>
+            TechStack:{{Personal_info.text}}          
+         
+        </div>
+   
+    </section>
+     -->
+<!-- <button mat-raised-button="sree">material </button>
+
+<button mat-button >Basic Button</button>
+<button mat-raised-button color="primary">Raised Button</button>
+<button mat-stroked-button color="accent" >Stroked Button</button>
+<button mat-flat-button color="warn" >Flat Button</button> -->
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container">
+  <img *ngFor="let slide of slides; let i = index"
+       [src]="slide"
+       [style.display]="slideIndex === i ? 'block' : 'none'"
+       style="width:100%" class="mySlides">
+
+  <button class="w3-button w3-black w3-display-left" (click)="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" (click)="plusDivs(1)">&#10095;</button>
+</div>

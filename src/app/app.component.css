@@ -1,0 +1,9 @@
+  .sp {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 40px;
+    line-height: 1.6;
+    background-image: linear-gradient(to right, #90c961, #c09def);
+    text-align: center;
+  }

@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  height: auto;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Contact Page Layout */
+.contact-page {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.contact-header h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Submit Button */
+.submit-btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn i {
+  margin-right: 8px;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.info-card {
+  background: #ecf0f1;
+  border-radius: 10px;
+  padding: 25px;
+  flex: 1 1 250px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.info-card i {
+  font-size: 30px;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.info-card h3 {
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.info-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
